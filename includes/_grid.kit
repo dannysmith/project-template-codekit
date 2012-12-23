@@ -1,0 +1,30 @@
+<!-- Fluid Columns Overlay -->
+
+<!-- This grid is a standard 12 column grid. It should be re-designed to fit the design for every site.
+-->
+<div id="overlay"><div id="underlay"></div><div id="overlay-inner"><div id="col-1"></div><div id="col-2"></div><div id="col-3"></div><div id="col-4"></div><div id="col-5"></div><div id="col-6"></div><div id="col-7"></div><div id="col-8"></div><div id="col-9"></div><div id="col-10"></div><div id="col-11"></div><div id="col-12"></div></div></div>
+
+<style>
+	#overlay {position: absolute; width: 100%; top: 0; z-index: -1;}
+	#overlay-inner {max-width: 1000px; margin: 0 auto;padding: 0 2%; -moz-box-sizing: content-box; box-sizing: content-box;}
+	#overlay-inner div {height: 1500px; background: rgba(244,162,173,0.2); margin-right: 2%; width: 6.5%; float: left; -moz-box-sizing: border-box;box-sizing: border-box;}
+	#overlay #col-12 {margin-right: 0;}
+	#underlay {background: url(/img/grid-26.png) repeat;position:absolute; top:0;left:0;height: 100%; width: 100%; z-index: -2;}
+	
+	/*  Colums are 65px (6.5%).
+      Gutters are 20px (2%).
+
+      12 cols = 100  %
+      11 cols = 91.5 %
+      10 cols = 83   %
+       9 cols = 74.5 %
+       8 cols = 66   %
+       7 cols = 57.5 %
+       6 cols = 49   %
+       5 cols = 40.5 %
+       4 cols = 32   %
+       3 cols = 23.5 %
+       2 cols = 15   %
+       1 cols = 6.5  %
+  */
+	</style>

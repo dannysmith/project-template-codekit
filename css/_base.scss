@@ -1,0 +1,153 @@
+// =======================
+// Fixes - From HTML5 BP
+// ======================= */
+ 
+// apply a natural box layout model to all elements - Danny Smith 1 Oct 12 */
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	*behavior: url(boxsizing-polyfill.htc);
+}
+
+// Windows 8 Snap Mode Fix - http://timkadlec.com/2012/10/ie10-snap-mode-and-responsive-design/ */
+@-ms-viewport{
+    width: device-width;
+}
+	
+
+html,body // Fix for whitespace on right bug in FF */
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+//Uses classes assed by JS.
+.mac h1,
+.mac h2,
+.mac h3,
+.mac h4 {
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+// ==========================================================================
+// Custom Fonts not from TypeKit
+// ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+// ==========================================================================
+// Base Styles
+// ========================================================================== */
+// Hammer and CodeKit contains all of the Bourboun Mixins (http://bourbon.io/) 
+
+
+/* @group Generic */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+html, button, input, select, textarea {
+    color: #222;
+}
+
+html {
+	font-size: 62.5%; // (16 being the default font size for most browsers - I drop it down to 10) */
+  line-height: 2.6em; // (26px line-height) */
+}
+
+body {
+	// Body copy should have about 66 characters per line. /*
+	// Use http://www.pearsonified.com/typography/ to calculate sizes */
+	font-size: 1.6rem; /* 16px */
+}
+
+#wrapper {
+	max-width: 1000px;
+	margin: 0 auto; padding: 0 2%;
+	
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+	*behavior: none;
+}
+
+h1, .h1 {
+	font-size: 36px; font-size: 3.6rem;
+	line-height: 52px; line-height: 5.2rem;
+	font-weight: normal;
+	margin: 0 0 26px 0;
+	margin-bottom: 2.6rem;
+}
+
+h2, .h2 {
+	font-size: 24px; font-size: 2.4rem;
+	line-height: 39px; line-height: 3.9rem;
+	font-weight: normal;
+	margin: 0 0 26px 0;
+	margin-bottom: 2.6rem;
+}
+
+h3, .h3 {
+	font-size: 21px; font-size: 2.1rem;
+	line-height: 26px; line-height: 2.6rem;
+	font-weight: normal;
+	margin: 0 0 26px 0;
+	margin-bottom: 2.6rem;
+	
+}
+
+p, .p, ul, ol {
+	font-size: 16px; font-size: 1.6rem;
+	margin: 0 0 26px 0;
+	margin-bottom: 2.6rem;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+		max-width: 100%;
+		position: relative;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+/* @end */
