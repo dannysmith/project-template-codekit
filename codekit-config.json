@@ -63,7 +63,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/main.css",
-      "outputAbbreviatedPath" : "No Output Path",
+      "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
     "\/includes\/_grid.kit" : {
@@ -127,7 +127,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/ie8.css",
-      "outputAbbreviatedPath" : "No Output Path",
+      "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
     "\/img\/grid-26.png" : {
@@ -206,6 +206,15 @@
       "outputAbbreviatedPath" : "\/js\/vendor\/jquery-1.8.2.min-ck.js",
       "fileType" : 64
     },
+    "\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.html",
+      "outputAbbreviatedPath" : "\/No Output Path",
+      "fileType" : 2048
+    },
     "\/includes\/_foot.kit" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -214,15 +223,6 @@
       "inputAbbreviatedPath" : "\/includes\/_foot.kit",
       "outputAbbreviatedPath" : "\/includes\/_foot.html",
       "fileType" : 65536
-    },
-    "\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/css\/_base.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -430,7 +430,7 @@
   },
   "projectAttributes" : {
     "bourbonEnabled" : 1,
-    "displayValue" : "codekit-test",
+    "displayValue" : "project-template-codekit",
     "displayValueWasSetByUser" : 0,
     "compassEnabled" : 0
   }
