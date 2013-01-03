@@ -64,6 +64,17 @@
       "outputAbbreviatedPath" : "\/includes\/_grid.html",
       "fileType" : 65536
     },
+    "\/img\/grid-20.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/grid-20.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/img\/grid-20.png",
+      "initialSize" : 76,
+      "fileType" : 8192
+    },
     "\/css\/_print.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -75,17 +86,6 @@
       "outputAbbreviatedPath" : "\/css\/_print.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/img\/grid-20.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/grid-20.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/img\/grid-20.png",
-      "initialSize" : 76,
-      "fileType" : 8192
     },
     "\/css\/_helpers.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -119,17 +119,6 @@
       "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
-    "\/img\/grid-26.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/grid-26.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/img\/grid-26.png",
-      "initialSize" : 76,
-      "fileType" : 8192
-    },
     "\/js\/main-ck.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -141,6 +130,17 @@
       "outputAbbreviatedPath" : "\/js\/main-ck-ck.js",
       "fileType" : 64
     },
+    "\/img\/grid-26.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/grid-26.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/img\/grid-26.png",
+      "initialSize" : 76,
+      "fileType" : 8192
+    },
     "\/includes\/_head.kit" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -149,6 +149,17 @@
       "inputAbbreviatedPath" : "\/includes\/_head.kit",
       "outputAbbreviatedPath" : "\/includes\/_head.html",
       "fileType" : 65536
+    },
+    "\/js\/vendor\/jquery-1.8.3.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/vendor\/jquery-1.8.3.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/vendor\/jquery-1.8.3.min-ck.js",
+      "fileType" : 64
     },
     "\/js\/main.js" : {
       "ignoreWasSetByUser" : 0,
@@ -183,17 +194,6 @@
       "outputAbbreviatedPath" : "\/css\/ie8.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/js\/vendor\/jquery-1.8.2.min.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vendor\/jquery-1.8.2.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/vendor\/jquery-1.8.2.min-ck.js",
-      "fileType" : 64
     },
     "\/includes\/_foot.kit" : {
       "ignoreWasSetByUser" : 0,
