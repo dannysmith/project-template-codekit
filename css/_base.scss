@@ -1,7 +1,16 @@
 // =======================
 // Fixes - From HTML5 BP
 // ======================= */
- 
+
+// Reset - Fix for whitespace on right bug in FF */
+html,body
+{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
 // apply a natural box layout model to all elements - Danny Smith 1 Oct 12 */
 *, *:before, *:after {
 	-moz-box-sizing: border-box;
@@ -13,15 +22,6 @@
 // Windows 8 Snap Mode Fix - http://timkadlec.com/2012/10/ie10-snap-mode-and-responsive-design/ */
 @-ms-viewport{
     width: device-width;
-}
-	
-
-html,body // Fix for whitespace on right bug in FF */
-{
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
 }
 
 //Uses classes assed by JS.
