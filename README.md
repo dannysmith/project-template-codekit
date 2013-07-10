@@ -14,7 +14,7 @@ This is a base tempate for building static sites using [CodeKit](http://incident
 
 ## SCSS Source Files
 
-* `_normalize.scss` - CSS Reset. Currently using [Version 2.0.1](https://github.com/necolas/normalize.css).
+* `_normalize.scss` - CSS Reset. Currently using [Version 2.1.2](https://github.com/necolas/normalize.css).
 * `_base.scss` - Contains fixes for some common bugs and base styles.
 * `_layout.scss` - Should contain layout-speciffic class declarations. See [SMACSS](http://smacss.com/) for more information on organising styles.
 * `_helpers.scss` - Contains a stripped-down version of the helper classes from H5BP.

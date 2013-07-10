@@ -135,7 +135,11 @@ hr {
     padding: 0;
 }
 
-img {
+img,
+audio,
+canvas,
+img,
+video {
     vertical-align: middle;
 		max-width: 100%;
 		position: relative;

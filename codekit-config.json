@@ -1,27 +1,17 @@
 {
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
-  "creatorBuild" : "8241",
+  "creatorBuild" : "8317",
   "files" : {
-    "\/css\/main.scss" : {
+    "\/js\/vendor\/jquery-1.10.2.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/main.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/main.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/index.kit" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.kit",
-      "outputAbbreviatedPath" : "\/index.html",
-      "fileType" : 65536
+      "inputAbbreviatedPath" : "\/js\/vendor\/jquery-1.10.2.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/vendor\/jquery-1.10.2.min.min.js",
+      "fileType" : 64
     },
     "\/js\/main.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -34,6 +24,18 @@
       "outputAbbreviatedPath" : "\/js\/main.min.min.js",
       "fileType" : 64
     },
+    "\/sass\/_normalize.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/_normalize.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_normalize.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/js\/plugins.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -45,15 +47,15 @@
       "outputAbbreviatedPath" : "\/js\/plugins.min.js",
       "fileType" : 64
     },
-    "\/css\/_layout.scss" : {
+    "\/sass\/_base.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_layout.scss",
+      "inputAbbreviatedPath" : "\/sass\/_base.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_layout.css",
+      "outputAbbreviatedPath" : "\/css\/_base.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -65,6 +67,15 @@
       "inputAbbreviatedPath" : "\/css\/main.css",
       "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
+    },
+    "\/index.kit" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.kit",
+      "outputAbbreviatedPath" : "\/index.html",
+      "fileType" : 65536
     },
     "\/includes\/_grid.kit" : {
       "ignoreWasSetByUser" : 0,
@@ -85,30 +96,6 @@
       "outputAbbreviatedPath" : "\/img\/grid-20.png",
       "initialSize" : 76,
       "fileType" : 8192
-    },
-    "\/css\/_print.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_print.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_print.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/css\/_helpers.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_helpers.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_helpers.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/img\/stripes.png" : {
       "ignoreWasSetByUser" : 0,
@@ -150,16 +137,29 @@
       "outputAbbreviatedPath" : "\/includes\/_head.html",
       "fileType" : 65536
     },
-    "\/js\/vendor\/jquery-1.8.3.min.js" : {
+    "\/sass\/main.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vendor\/jquery-1.8.3.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/vendor\/jquery-1.8.3.min.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/sass\/main.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/css\/main.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/sass\/_print.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/_print.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_print.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/js\/main.js" : {
       "ignoreWasSetByUser" : 0,
@@ -183,15 +183,15 @@
       "outputAbbreviatedPath" : "\/js\/vendor\/modernizr-2.6.2.min.min.js",
       "fileType" : 64
     },
-    "\/css\/ie8.scss" : {
+    "\/sass\/_helpers.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/ie8.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/ie8.css",
+      "inputAbbreviatedPath" : "\/sass\/_helpers.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_helpers.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -213,27 +213,27 @@
       "outputAbbreviatedPath" : "\/includes\/_foot.html",
       "fileType" : 65536
     },
-    "\/css\/_base.scss" : {
+    "\/sass\/_layout.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_base.scss",
+      "inputAbbreviatedPath" : "\/sass\/_layout.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_base.css",
+      "outputAbbreviatedPath" : "\/css\/_layout.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/_normalize.scss" : {
+    "\/sass\/ie8.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/_normalize.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_normalize.css",
+      "inputAbbreviatedPath" : "\/sass\/ie8.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/css\/ie8.css",
       "fileType" : 4,
       "debugStyle" : 0
     }
@@ -262,7 +262,10 @@
     "sassAutoOutputPathStyle" : 2,
     "stylusAutoOutputPathReplace2" : "css",
     "lessAutoOutputPathStyle" : 2,
+    "lessIECompatibility" : 1,
     "genericWebpageFileExtensionsString" : "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
+    "lessStrictUnits" : 0,
+    "lessStrictMath" : 0,
     "coffeeMinifyOutput" : 1,
     "javascriptOutputSuffix" : ".min",
     "jadeOutputStyle" : 0,
@@ -286,9 +289,9 @@
     "jadeAutoOutputPathReplace2" : "",
     "shouldRunBless" : 1,
     "stylusAutoOutputPathStyle" : 2,
-    "coffeeCheckOutputStyle" : 0,
+    "coffeeCheckOutputStyle" : 2,
     "slimOutputStyle" : 1,
-    "javascriptSyntaxCheckerStyle" : 1,
+    "javascriptSyntaxCheckerStyle" : 2,
     "sassAutoOutputPathReplace1" : "sass",
     "slimAutoOutputPathReplace1" : "",
     "sassOutputStyle" : 3,
@@ -316,28 +319,26 @@
       "curly" : 1,
       "trailing" : 1,
       "nonew" : 1,
-      "withstmt" : 0,
+      "es3" : 0,
       "yui" : 0,
       "mootools" : 0,
       "proto" : 0,
       "boss" : 0,
       "funcscope" : 0,
-      "regexdash" : 0,
       "jquery" : 1,
       "esnext" : 0,
       "camelcase" : 0,
-      "es5" : 0,
       "dojo" : 0,
       "strict" : 0,
       "devel" : 0,
-      "onecase" : 0,
       "wsh" : 0,
       "nonstandard" : 0,
       "asi" : 0,
-      "smarttabs" : 0,
+      "moz" : 0,
       "rhino" : 0,
-      "noempty" : 0,
+      "smarttabs" : 0,
       "lastsemic" : 0,
+      "noempty" : 0,
       "eqnull" : 0,
       "eqeqeq" : 1,
       "couch" : 0,
@@ -361,43 +362,37 @@
       "multistr" : 0,
       "shadow" : 0,
       "sub" : 0,
-      "regexp" : 1,
+      "plusplus" : 0,
       "scripturl" : 0,
       "forin" : 0,
       "loopfunc" : 0,
-      "laxbreak" : 0,
-      "plusplus" : 0
+      "laxbreak" : 0
     },
     "jsLintFlags" : {
       "white" : 0,
-      "bitwise" : 0,
+      "unparam" : 0,
       "regexp" : 0,
+      "nomen" : 0,
       "vars" : 0,
-      "anon" : 0,
       "sub" : 0,
       "stupid" : 0,
-      "nomen" : 0,
-      "unparam" : 0,
+      "continue" : 0,
+      "bitwise" : 0,
       "newcap" : 0,
-      "'continue'" : 0,
       "sloppy" : 0,
-      "fragment" : 0,
-      "undef" : 0,
+      "closure" : 0,
       "es5" : 0,
       "browser" : 1,
       "properties" : 0,
-      "forin" : 0,
       "plusplus" : 0,
       "debug" : 0,
+      "forin" : 0,
       "eqeq" : 0,
-      "confusion" : 0,
       "evil" : 0,
-      "on" : 0,
-      "windows" : 0,
-      "devel" : 0,
-      "rhino" : 0,
       "node" : 0,
-      "css" : 0
+      "rhino" : 0,
+      "devel" : 0,
+      "ass" : 0
     },
     "uglifyFlags" : {
       "no-mangle-functions" : 0,
@@ -419,6 +414,7 @@
     "jadeCompileDebug" : 1,
     "slimRailsCompatible" : 0,
     "kitAutoOutputPathReplace2" : "",
+    "lessRelativeURLS" : 0,
     "lessDebugStyle" : 0,
     "javascriptAutoOutputPathRelativePath" : "",
     "slimAutoOutputPathStyle" : 0
