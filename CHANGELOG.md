@@ -7,6 +7,7 @@
 * Added commended-out Universal Google Analytics code from HTML5bp.
 * Added vertical-align and max-width to elements other than img.
 * Moved sass files into their own `/sass` folder and updated CodeKit settings to compile them to `/css`.
+* Added `_shame.scss`.
 
 # 6 Jan 12
 
