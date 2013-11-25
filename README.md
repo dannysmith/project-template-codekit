@@ -61,3 +61,6 @@ This template currently uses Version 2.0.3 (9 Dec 2012) but may have been update
 If you'd like to contribute, go ahead and fork.
 
 This template was built by [Danny Smith](http://dasmith.co.uk) ([@dannysmith](http://twitter.com/dannysmith)) and is based on [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate). It incorporates a number of other fixes and suggestions, some of which were written by others.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/manyhatsdesign/project-template-codekit/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
